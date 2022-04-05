@@ -1,0 +1,31 @@
+.row {
+  border: rgb(229, 229, 229) 2pz springgreen;
+   height: min-content;
+   width: 80%;
+   margin: auto;
+  
+  
+   
+   display: grid;
+   grid-template-columns: auto auto auto auto auto ;
+   gap:0px;
+
+ 
+ 
+   &_box {
+     border: 2px solid grey;
+     height: 
+     50px;
+     margin-top: 5px;
+     
+   width: 50px;
+
+
+  
+   
+   }
+
+ 
+ 
+ 
+ }

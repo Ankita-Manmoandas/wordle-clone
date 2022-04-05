@@ -1,11 +1,15 @@
 import "./App.scss";
+import Nav from "./components/Nav/Nav";
+import Grid from "./components/Grid/Grid";
+import Keyboard from "./components/Keyboard/Keyboard";
 
 const App = () => {
   return (
     <div className="app">
-      <header className="greeting">
-        <h1 className="greeting__heading">Hello World</h1>
-      </header>
+     <Nav />
+     <Grid />
+     <Keyboard />
+
     </div>
   );
 };
